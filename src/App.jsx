@@ -825,7 +825,7 @@ export default function ClickVisionV2() {
                 ))}
               </div>
             </div>
-            <div style={{marginTop:10,display:"flex",gap:6"}}>
+            <div style={{marginTop:10,display:"flex",gap:6}}>
               <button style={{...S.btn("sec"),fontSize:10}} onClick={()=>onPoints(patient.id,10)}>⭐ +10 pts</button>
               <button style={{...S.btn("sec"),fontSize:10}} onClick={()=>onPoints(patient.id,25)}>⭐ +25 pts</button>
             </div>
